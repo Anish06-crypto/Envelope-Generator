@@ -1,0 +1,96 @@
+body {
+	font-family: 'Rokkitt', serif;
+	padding: 20 20 20 20;
+	color: #010208;
+	background-image:
+    linear-gradient(
+      #275576, white
+    );
+    font-size: 16px;
+}
+
+#header {
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+
+	color: #071C30;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
+}
+
+form input:focus {
+	outline: none;
+	border: 2px solid red;
+}
+
+form input:hover {
+	outline: none;
+	border: 2px solid red;
+}
+
+.outline-color:hover, .outline-color:focus {
+	outline: none;
+	border: 2px solid red;
+}
+
+.submit-button {
+   border:1px solid transparent;
+   color: #cc0000;
+   background-color: white;
+}
+
+.submit-button:hover {
+   border:1px solid #010208;
+   background-color: #cc0000;
+   color: white;
+}
+
+.form-submission {
+	text-align: justify;
+	padding: 20px;
+	background-color: #F5FFFA;
+	border-radius: 15px;
+	border: 2px solid #071C30;
+}
+
+.envelope-form {
+	text-align: left;
+}
+
+.envelope-form label {
+	width: 50%;
+}
+
+.faq {
+	text-align: justify;
+	padding: 20px;
+	background-color: #F5FFFA;
+	border-radius: 15px;
+	border: 2px solid #071C30;
+}
+
+.item {
+	width: 60%;
+	padding: 10px;
+}
+
+.item.one {
+	width: 40%;
+	padding: 10px;
+}
+
+.item.two {
+	width: 60%;
+	padding: 10px;
+}
+
+.item.three {
+	width: 40%;
+	padding: 10px;
+}
